@@ -74,6 +74,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_perfil) {
+            Intent it = new Intent(getBaseContext(), PerfilActivity.class);
+            startActivity(it);
             // Handle the camera action
         } else if (id == R.id.nav_historico) {
 
@@ -83,6 +85,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_codigo) {
             Intent it = new Intent(getBaseContext(), CodigoIndicacaoActivity.class);
+            startActivity(it);
+        } else if (id == R.id.nav_fimcorrida) {
+            Intent it = new Intent(getBaseContext(), FimCorridaActivity.class);
+            startActivity(it);
+        } else if (id == R.id.nav_avaliacao) {
+            Intent it = new Intent(getBaseContext(), AvalieMotoristaActivity.class);
             startActivity(it);
         }
 

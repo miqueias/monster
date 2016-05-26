@@ -43,6 +43,21 @@
             android:label="codigo"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name=".FimCorridaActivity"
+            android:label="fimcorrida"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PerfilActivity"
+            android:label="perfil"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AvalieMotoristaActivity"
+            android:label="avaliacao"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>
