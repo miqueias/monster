@@ -1,5 +1,6 @@
 package com.example.marlon.estudo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -80,6 +81,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_sair) {
 
+        } else if (id == R.id.nav_codigo) {
+            Intent it = new Intent(getBaseContext(), CodigoIndicacaoActivity.class);
+            startActivity(it);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

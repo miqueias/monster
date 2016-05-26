@@ -38,6 +38,11 @@
             android:label="cadastro"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name=".CodigoIndicacaoActivity"
+            android:label="codigo"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>
