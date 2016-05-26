@@ -9,14 +9,34 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/CustomActivityThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="main"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="login"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".EntrarActivity"
+            android:label="entrar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".CadastroActivity"
+            android:label="cadastro"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
