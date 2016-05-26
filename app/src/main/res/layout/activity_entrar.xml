@@ -49,6 +49,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/etEmail"
             android:hint="Insira seu e-mail"
+            android:inputType="textNoSuggestions"
             android:textColorHint="@color/grey"
             android:backgroundTint="@color/amarelo"
             android:layout_marginTop="40dp" />
@@ -57,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/etSenha"
+            android:inputType="textFilter|textNoSuggestions|textPassword"
             android:hint="Senha"
             android:textColorHint="@color/grey"
             android:backgroundTint="@color/amarelo"
