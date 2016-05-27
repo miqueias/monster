@@ -58,6 +58,11 @@
             android:label="avaliacao"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name=".HistoricoActivity"
+            android:label="historico"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>

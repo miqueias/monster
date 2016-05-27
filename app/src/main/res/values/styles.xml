@@ -23,10 +23,10 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
         <item name="android:progressDrawable">@drawable/ratingstars</item>
-        <item name="android:minHeight">20dip</item>
-        <item name="android:maxHeight">40dip</item>
+        <item name="android:minHeight">41dip</item>
+        <item name="android:maxHeight">41dip</item>
     </style>
 
 </resources>

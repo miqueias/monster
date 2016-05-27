@@ -5,4 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="txt_avaliacao">Sua avaliação é muito importante para prestarmos um serviço cada vez melhor, então se tiver um tempinho nos diga mais sobre o motorista e a viagem. A T81 agradece!</string>
+
 </resources>

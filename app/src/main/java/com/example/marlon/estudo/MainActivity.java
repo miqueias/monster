@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(it);
             // Handle the camera action
         } else if (id == R.id.nav_historico) {
-
+            Intent it = new Intent(getBaseContext(), HistoricoActivity.class);
+            startActivity(it);
         } else if (id == R.id.nav_pagamento) {
 
         } else if (id == R.id.nav_sair) {
