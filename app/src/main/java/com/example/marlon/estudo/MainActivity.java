@@ -1,5 +1,6 @@
 package com.example.marlon.estudo;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -13,7 +14,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.marlon.estudo.fragments.ExecutivoFragment;
 import com.example.marlon.estudo.fragments.MotoDeliveryFragment;
@@ -93,6 +96,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_avaliacao) {
             Intent it = new Intent(getBaseContext(), AvalieMotoristaActivity.class);
             startActivity(it);
+        }
+        else if (id == R.id.nav_dialog1) {
+            LayoutInflater li = LayoutInflater.from(MainActivity.this);
+            View promptsView = li.inflate(R.layout.dialog_custo_estimado, null);
+            final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+            alertDialog.setView(promptsView);
+            alertDialog.show();
+        }
+        else if (id == R.id.nav_dialog2) {
+            LayoutInflater li = LayoutInflater.from(MainActivity.this);
+            View promptsView = li.inflate(R.layout.dialog_forma_pagamento, null);
+            final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+            alertDialog.setView(promptsView);
+            alertDialog.show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
