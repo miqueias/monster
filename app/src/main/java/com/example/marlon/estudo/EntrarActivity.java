@@ -9,12 +9,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class EntrarActivity extends AppCompatActivity {
 
     private Button btnEntrar;
     private EditText etSenha;
+    private TextView tvEsqueciSenha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,15 @@ public class EntrarActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(getBaseContext(), MainActivity.class);
+                startActivity(it);
+            }
+        });
+
+        tvEsqueciSenha = (TextView) findViewById(R.id.tvEsqueciSenha);
+        tvEsqueciSenha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(getBaseContext(), EsqueciSenhaActivity.class);
                 startActivity(it);
             }
         });
