@@ -48,6 +48,5 @@ public class HistoricoAdapter extends RecyclerView.Adapter<HistoricoAdapter.Pers
     @Override
     public int getItemCount() {
         return 10;
-//        return aaa.size();
     }
 }

@@ -68,6 +68,12 @@
             android:label="esqueci senha"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name=".MapaCarregandoActivity"
+            android:label="mapa"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
     </application>
 
 </manifest>

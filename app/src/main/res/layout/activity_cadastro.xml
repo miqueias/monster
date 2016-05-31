@@ -44,6 +44,29 @@
             android:textColor="@color/amarelo"
             android:textStyle="bold" />
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgPerfil"
+                    android:src="@drawable/ic_perfil"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +75,7 @@
             android:inputType="textNoSuggestions"
             android:textColorHint="@color/grey"
             android:backgroundTint="@color/amarelo"
-            android:layout_marginTop="40dp" />
+            android:layout_marginTop="20dp" />
 
         <EditText
             android:layout_width="match_parent"
