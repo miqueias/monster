@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Intent it = new Intent(getBaseContext(), HistoricoActivity.class);
             startActivity(it);
         } else if (id == R.id.nav_pagamento) {
+            Intent it = new Intent(getBaseContext(), ViagemActivity.class);
+            startActivity(it);
 
         } else if (id == R.id.nav_sair) {
 

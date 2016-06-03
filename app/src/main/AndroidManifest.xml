@@ -69,6 +69,11 @@
             android:screenOrientation="portrait">
         </activity>
         <activity
+            android:name=".ViagemActivity"
+            android:label="viagem"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
             android:name=".MapaCarregandoActivity"
             android:label="mapa"
             android:screenOrientation="portrait"
