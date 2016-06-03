@@ -15,6 +15,11 @@
         android:visibility="visible"
         android:layout_alignParentBottom="true">
 
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <include
             android:id="@+id/layoutBubble"
             layout="@layout/my_marker"
